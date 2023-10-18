@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" href = "css/main.css">
+<meta name = "author" content = "Александра Корчевец" />
+<meta name = "describtion" content = "Мой проект о видах мака" />
+<link rel="icon" href="ifo.ico">
+<header>
+  <title>Виды мака</title>
+</header>
+</head>
+<body>
+<main>
+<h1>Виды мака</h1> <!-- большой заголовок -->
+<nav class="menu">
+  <ul>
+    <li><a href="#about">О маке</a></li>
+    <li><a href="#alp">Мак альпийский</a></li>
+    <li><a href="#somn">Мак сомнительный</a></li>
+	<li><a href="#tabl">Таблица о маке</a></li>
+  </ul>
+</nav>
+<h2  id = "about">О маке</h2> <!-- заголовок поменьше -->
+  <p class="desc"><strong>Мак </strong> — <em><u>это цветок, внешний вид которого известен всем.</u></em> <!-- Жирный текст, текст курсивом и подчеркнутый текст -->
+  <br> Летом сотни цветочков укрывают ярким, огненным ковром поля. 
+  <br>Есть и декоративные виды растения, которые выводятся селекционерами и выращиваются в садах, становясь ярким пятном в ландшафтном дизайне.</p>
+  <img src="img\mak.png" alt="Декоративный мак" width="500" height="500" /> <!-- обавление картинки и настройка ее параметров -->
+  <p id ="interestingfact"> <u> Помимо вечного сна, мак на протяжении всей истории символизировал память и надежду.
+  <br>Сегодня маки несут послание мира с подтекстом солдатской жертвы, поскольку они, как правило, растут на истерзанных войной полях.
+  <br>После наполеоновских войн в начале 19 века и снова после Первой мировой войны вокруг начали появляться красные цветы мака. 
+  <br>Они часто были первым типом растительности, которая отрастала на разрушенных полях сражений, богатых известковыми отложениями. 
+  <br>Это обеспечило оптимальную почву для их роста. В известном стихотворении ветерана войны Джона МакКрея «На поле Фландрии» маки упоминаются. </u> </p>
+<section>
+<h3 id = "alp">Мак альпийский</h3> <!-- заголовок поменьше -->
+  <p class="desc"> <strong> Мак альпийский </strong> <small> (лат. Papaver alpinum) </small> <!-- Жирный текст и текст меньше обычного --> 
+  <br> <em><u> вид травянистых растений из рода Мак (Papaver) семейства Маковые (Papaveraceae).  <!-- Текст курсивом и подчеркнутый текст -->
+  <br> Родина — Альпы, Пиренеи. </u></em>
+  </p>
+  <form action="https://www.ozon.ru/product/mak-belo-rozovyy-ili-gornyy-semena-30-sht-900490661/?utm_medium=organic&utm_referrer=https%3A%2F%2Fyandex.ru%2Fproducts%2Fsearch%3Ftext%3D%25D0%25BA%25D1%2583%25D0%25BF%25D0%25B8%25D1%2582%25D1%258C%2520%25D0%25B0%25D0%25BB%25D1%258C%25D0%25BF%25D0%25B8%25D0%25B9%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9%2520%25D0%25BC%25D0%25B0%25D0%25BA&utm_source=yandex_serp_products">
+    <input class = "tekst" type="submit" value="Купить альпийский мак" />
+  </form>
+  <img src="img\alp.png" alt="Декоративный мак" width="500" height="500" /> <!-- обавление картинки и настройка ее параметров -->
+</section>
+<section>
+<h3 id = "somn">Мак сомнительный</h3> <!-- заголовок поменьше -->
+  <p class="desc"> <strong> Мак сомнительный </strong> <small> (лат. Papaver dubium)  </small> <!-- Жирный текст и текст меньше обычного --> 
+  <br> <em><u> однолетнее травянистое растение, вид травянистых растений из рода Мак (Papaver) семейства Маковые (Papaveraceae).  <!-- Текст курсивом и подчеркнутый текст -->
+  </p>
+  <form action="https://seemnemaailm.com/ru/blindeyes-red.html">
+    <input class = "tekst" type="submit" value="Купить мак сомнительный" />
+  </form>
+  <img src="img\somn.png" alt="Декоративный мак" width="500" height="500" /> <!-- обавление картинки и настройка ее параметров -->
+</section>
+<table id = "tabl">
+  <tr> 
+    <th colspan = 4 > Таблица о маке </th>
+  </tr>
+  <tr> 
+    <th colspan = 2> Название вида </th>
+    <th> Год открытия </th>
+	<th> Цена </th>
+  </tr>
+  <tr> 
+    <td colspan = 2> Мак альпийский </td>
+	<td> 1901 </td>
+	<td> от 7р./шт. </td>
+  </tr>
+  <tr> 
+    <td colspan = 2> Мак сомнительный </td>
+    <td> 1753 </td>
+    <td> от 50р./шт. </td>
+  </tr>
+</table>
+<form id="userform"> 
+    <fieldset>
+        <legend>Login form:</legend>
+        <label for="uname">Username:</label>
+        <input type="text" id="uname">
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass"><br>
+	<button type="submit" form="userform">Login</button>
+    </fieldset>
+    <fieldset>
+        <legend>Other info:</legend>
+        <label for="email-id">Email ID:</label>
+        <input type="email" id="email-id" name="email-id">
+        <label for="num">Phone number:</label>
+        <input type="phnum" id="num" name="num"><br>
+        <label for="bday">Birthday:</label>
+        <input type="date" id="bday" name="bday">
+        <label for="fchoice">Сhoose a mac:</label>
+        <select id="fchoice">
+            <optgroup label="Выберете мак!">
+                <option>Мак альпийский</option>
+                <option>Мак сомнительный</option>
+            </optgroup>
+        </select>
+    </fieldset>
+</form>
+</main>
+</body>
+<footer>
+  <p>Мак 2023</p>
+</footer>
+</html>

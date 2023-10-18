@@ -1,0 +1,93 @@
+head{
+  background-color: black;
+}
+h1{
+  font-size: 40px;
+  color: white;
+}
+h2{
+  font-size: 35px;
+  color: white;
+}
+h3{
+  font-size: 30px;
+  color: white;
+}
+h1, h2, h3{
+  text-align: center;
+}
+body{
+  background-color: black;
+}
+footer{
+  color: white;
+  text-align: center;
+}	
+table {
+  text-align: center;
+  background: url(../img/makkk.png); /* Изменение фона у таблицы */
+  background-size: cover;
+  font-family: Arial;
+  color: black;
+  width: 40%;
+  height: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  border: 20px solid white;
+  padding: 30px;
+  border-collapse: collapse;
+
+}
+.desc{
+	color: green;
+	font-size: 25px;
+	text-align: center;
+}
+#interestingfact{
+	color: red;
+	text-align: center;
+}
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 25%;
+	height: 25%;
+}
+form{
+  display:flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.tekst{
+  color: black;
+  background-color: green;
+}	
+.menu{
+	color: white;
+}
+nav a{
+	color: white;
+	font-size: 40px;
+}
+th, td{
+	border: 7px solid white;
+	color: white;
+}
+#userform{
+	margin-top: 40px;
+	color: white;
+}
+input[type="text"]{
+	border: 2px solid green;
+}
+input[type="password"]{
+	border: 2px solid green;
+}
+input[type="email"]{
+	border: 2px solid green;
+}
+input[type="phnum"]{
+	border: 2px solid green;
+}
